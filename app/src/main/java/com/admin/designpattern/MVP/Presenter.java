@@ -2,7 +2,7 @@ package com.admin.designpattern.MVP;
 
 /**
  * 是view和model交互的唯一桥梁，这也是mvp与mvc的唯一区别，负责所有的中间操作，将model中的数据取出，通知view更新；
- * 或者是接受view的用户响应，将数据存到model中去
+ * 或者是接受view的用户响应，将数据存到model中去.而mvvm模式，则是在接受数据变化时，就直接在vm中对iview进行更新
  * Created by Administrator on 2016/10/24 0024.
  */
 public class Presenter {
